@@ -1,0 +1,12 @@
+@(items: List[Item])
+
+@main("Welcome to Play") {
+    <h1>PhotoIs is Image Gallery Server</h1>
+
+    <dl>
+        @for(item <- items) {
+            <dt>@item.title</dt>
+            <dd><img src="/assets/photos/@item.name" height="@item.height"></dd>
+        }
+    </dl>
+}
