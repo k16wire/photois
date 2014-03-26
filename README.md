@@ -1,4 +1,4 @@
 photois
 =======
 
-Image Galary Server
+Image Gallery Server
